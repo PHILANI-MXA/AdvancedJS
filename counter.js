@@ -1,3 +1,9 @@
+// document.addEventListener("DOMContentLoaded", function() {
+//     document.querySelector("button").onclick = count;
+// ------------------------------------------------------------------ have to run only 1 function at a time
+//     document.querySelector("button").onclick = subtract;
+// })
+
 let counter = 0;
 
 function count() {
@@ -5,7 +11,8 @@ function count() {
     document.querySelector("#counter").innerHTML = counter;
 }
 
-function sub() {
+function subtract() {
     counter--;
     document.querySelector("#counter").innerHTML = counter;
 }
+
